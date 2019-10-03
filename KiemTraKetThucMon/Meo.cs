@@ -11,7 +11,7 @@ namespace KiemTraKetThucMon
     {
         public override void Keu()
         {
-            MessageBox.Show(" Meo " + " Meo Meo ");
+            base.Keu();
         }
     }
 }

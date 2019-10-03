@@ -31,7 +31,10 @@ namespace KiemTraKetThucMon
         }
         public virtual void Keu()
         {
-            
+            if (LoaiDongVat.Equals("Gau Gau"))
+                MessageBox.Show(this.LoaiDongVat + " Toi la Cho " + " mau long " + this.maulong);
+            else
+                MessageBox.Show(this.LoaiDongVat + " Toi la Meo " + " mau long " + this.maulong);
         }
 
     }

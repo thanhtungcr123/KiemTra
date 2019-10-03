@@ -7,7 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Name="btnNhap" Content="Nhap" HorizontalAlignment="Left" Margin="316,182,0,0" VerticalAlignment="Top" Width="205" Height="95" Click="BtnNhap_Click"/>
+        <Button Name="btnNhap" Content="Meo" HorizontalAlignment="Left" Margin="90,176,0,0" VerticalAlignment="Top" Width="216" Height="95" Click="BtnNhap_Click"/>
+        <Label Content="Mau Long Meo" HorizontalAlignment="Left" Margin="90,56,0,0" VerticalAlignment="Top" Width="96" Height="47"/>
+        <TextBox Name="txtMeo" HorizontalAlignment="Left" Height="47" Margin="186,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.407,0.517"/>
+        <Label Content="Mau Long Cho" HorizontalAlignment="Left" Margin="452,56,0,0" VerticalAlignment="Top" Height="47" Width="91"/>
+        <TextBox Name="txtCho" HorizontalAlignment="Left" Height="47" Margin="548,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="109"/>
+        <Button Name="btnnhap" Content="Cho" HorizontalAlignment="Left" Margin="452,176,0,0" VerticalAlignment="Top" Width="205" Height="95" Click="Btnnhap_Click_1"/>
 
     </Grid>
 </Window>

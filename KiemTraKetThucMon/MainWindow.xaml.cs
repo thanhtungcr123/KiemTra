@@ -27,10 +27,20 @@ namespace KiemTraKetThucMon
 
         private void BtnNhap_Click(object sender, RoutedEventArgs e)
         {
-            Cho cho = new Cho();            
-            cho.Keu();
             Meo meo = new Meo();
+            meo.LoaiDongVat = "Meo Meo";
+            meo.maulong = "Trang";
             meo.Keu();
+            //MessageBox.Show(" Meo Meo toi la Meo Long Mau " + txtMeo.Text);
+        }
+
+        private void Btnnhap_Click_1(object sender, RoutedEventArgs e)
+        {
+            Cho cho = new Cho();
+            cho.LoaiDongVat = "Gau Gau";
+            cho.maulong = " Do ";
+            cho.Keu();
+            //MessageBox.Show(" Gau Gau toi la Cho Long mau " + txtCho.Text);
         }
     }
 }
